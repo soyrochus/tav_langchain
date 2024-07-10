@@ -1,0 +1,17 @@
+{
+  "name": "tav_langchain_ts",
+  "version": "1.0.0",
+  "description": "Workbench for working with Langchain from JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.9",
+    "openai": "^4.52.4"
+  }
+}

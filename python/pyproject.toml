@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tav-langchain-python"
+version = "0.1.0"
+description = "Workbench for working with Langchain from Python"
+authors = ["Iwan van der Kleijn <iwanvanderkleijn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.2.12"
+openai = "^1.35.13"
+langchain-openai = "^0.1.14"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
