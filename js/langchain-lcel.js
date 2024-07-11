@@ -7,7 +7,7 @@ import { StringOutputParser } from '@langchain/core/output_parsers';
 // Load environment values from the .env file (for the API key)
 config();
 
-const main = async () => {
+async function main() {
   const args = process.argv;
   const paramIndex = args.indexOf('-p');
   let userMessage = `Which countries played the final in the FIFA world cup in 2010?

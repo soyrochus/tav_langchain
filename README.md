@@ -71,6 +71,21 @@ For more information, visit the [Poetry installation page](https://python-poetry
     poetry run python script.py
     ```
 
+
+### ChromaDb
+
+Chroma is an AI-native open-source vector database. It comes with everything you need to get started built in, and runs on your machine. 
+
+1. You need to have Python installed (!)
+
+2. Install Chroma (using the Python package installer)
+
+    ```bash
+    pip install chromadb 
+    ```
+
+See: [Web site ChromaDb](https://www.trychroma.com/)
+
 ## Contributing
 We welcome contributions to enhance and expand the capabilities of this project. Feel free to submit pull requests or open issues for any bugs or feature requests.
 
